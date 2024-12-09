@@ -17,7 +17,10 @@ git clone https://github.com/sea-rod/Todo-application.git
 ```bash
 cd Todo-application
 ```
-3. Install dependencies
+3. create venv and activate sudo apt install python3.12-venv
+   python3 -m venv venv
+   source venv/bin/activate
+4. Install dependencies
 ```bash
 pip install -r requirements.txt
 ```
@@ -25,23 +28,23 @@ or
 ```bash
 python -m pip insatll -r requirements.txt 
 ```
-4. Then run the `python manage.py migrate` to make create tables in the database
+5. Then run the `python manage.py migrate` to make create tables in the database
 ```bash
 python manage.py migrate
 ```
-5. Then run the `python manage.py collectstatic` command
+6. Then run the `python manage.py collectstatic` command
 ```bash
 python manage.py collectstatic
 ```
-6. Then run the `python manage.py runserver` command to start the development server
+7. Then run the `python manage.py runserver` command to start the development server
 ```bash
 python manage.py runserver
 ```
 >Note: Do not use the this server for production
 
-7. Visit the link the site hosted on in your web browser
+8. Visit the link the site hosted on in your web browser
 
-8. Thats all your good to go. Enjoy the app 💖!!
+9. Thats all your good to go. Enjoy the app 💖!!
 
 > Information on how to use the api will be provided soon
 
@@ -51,6 +54,3 @@ python manage.py runserver
 - [Flaticon](https://www.flaticon.com/): Icons used in this project are from flaticon 
 
 - [Django REST framework](https://www.django-rest-framework.org/):Django REST framework is a powerful and flexible toolkit for building Web APIs.
-
-# License
-This project is licensed under the MIT license - see [`License`](LICENSE) file for details.
